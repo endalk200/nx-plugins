@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-plugins/nx-flask": ["packages/nx-flask/src/index.ts"],
       "nx-plugins/nx-django": ["packages/nx-django/src/index.ts"]
     }
   },
