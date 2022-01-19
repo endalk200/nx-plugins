@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "nx-django": "packages/nx-django",
+    "nx-django-e2e": "e2e/nx-django-e2e"
+  }
+}
