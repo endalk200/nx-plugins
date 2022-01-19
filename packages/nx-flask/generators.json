@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "nx-flask",
+  "version": "0.0.1",
+  "generators": {
+    "nx-flask": {
+      "factory": "./src/generators/nx-flask/generator",
+      "schema": "./src/generators/nx-flask/schema.json",
+      "description": "nx-flask generator"
+    }
+  }
+}
