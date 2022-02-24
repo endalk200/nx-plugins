@@ -1,12 +1,22 @@
 {
-  "$schema": "http://json-schema.org/schema",
-  "name": "nx-django",
-  "version": "0.0.1",
-  "generators": {
-    "nx-django": {
-      "factory": "./src/generators/nx-django/generator",
-      "schema": "./src/generators/nx-django/schema.json",
-      "description": "nx-django generator"
+    "$schema": "http://json-schema.org/schema",
+    "name": "nx-django",
+    "version": "0.0.1",
+    "generators": {
+        "app": {
+            "factory": "./src/generators/app/generator",
+            "schema": "./src/generators/app/schema.json",
+            "description": "app generator"
+        },
+        "view": {
+            "factory": "./src/generators/view/generator",
+            "schema": "./src/generators/view/schema.json",
+            "description": "view generator"
+        },
+        "application": {
+            "factory": "./src/generators/application/generator",
+            "schema": "./src/generators/application/schema.json",
+            "description": "application generator"
+        }
     }
-  }
 }
